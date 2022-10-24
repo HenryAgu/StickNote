@@ -44,4 +44,5 @@ Henry's stick notes is a note taking web application designed for just anyone wi
 ## To Run this program on your device
 - Open your terminal
 - Locate this project
-- Run 'npm init'
+- Run 'npm init' to get the 'node module' folder
+- Run 'npm start' to run the program on your local browser.
