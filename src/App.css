@@ -1,0 +1,148 @@
+.container{
+  width: 100%;
+}
+
+.notes-header{
+  text-align: center;
+}
+
+.notes-header h1{
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: 'Teko', sans-serif;
+}
+
+.input-section{
+  background-color: rgb(24, 24, 83);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form{
+ display: flex;
+ flex-direction: column; 
+ padding-bottom: 50px;
+}
+
+form textarea{
+  resize: none;
+  height: 200px;
+  width: 70vw;
+  border-radius: 7px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 16px;
+  /* box-shadow: 1px 1px 4px 2px silver; */
+}
+
+form button{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.notes-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 90%;
+  gap: 50px;
+  margin: 100px auto;
+}
+
+.inner-notes{
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: wheat;
+}
+
+.inner-notes p{
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.notes-control{
+  display: flex;
+  justify-content: right;
+}
+
+.notes-control i{
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+.delete{
+  color: red;
+}
+
+.edit{
+  color: green;
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsiveness starts here */
+/* medium screens */
+@media (max-width: 991px) {
+  .notes-section{
+    gap: 25px;
+    margin: 70px auto;
+  }
+  .notes-control{
+    align-items: center;
+  }
+  .inner-notes p{
+    line-height: 25px;
+    font-weight: 500;
+    font-size: 17px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .notes-header h1{
+    font-size: 40px;
+  }
+  form textarea{
+    height: 100px;
+    width: 75vw;
+  }
+  form button{
+    width: 50%;
+  }
+  .notes-section{
+    grid-template-columns: 1fr;
+    width: 90%;
+    gap: 40px;
+  }
+  .inner-notes{
+    border-radius: 15px;
+    padding: 30px;
+  }
+  .inner-notes p{
+    line-height: 30px;
+  }
+}
