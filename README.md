@@ -3,6 +3,9 @@
 Henry's stick notes is a note taking web application designed for just anyone with busy schedules. This app helps users to take down short notes with ease, helping them stay organized at all times.
 
 # Screenshot
+![stick1](https://user-images.githubusercontent.com/74037448/197475084-4c6499f4-8ebe-4833-9541-1782b460eb78.PNG)
+![stick2](https://user-images.githubusercontent.com/74037448/197475094-17fdb658-1fc8-4154-b5be-2ef3479b8fd8.PNG)
+![stick 3](https://user-images.githubusercontent.com/74037448/197475098-0519a685-fbab-47e6-8e14-2fc501245026.PNG)
 
 
 
